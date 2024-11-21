@@ -1,3 +1,3 @@
-<img> src="" width="40%"/>
+<img src="pngwing.com.png" width="40%"/>
 
 # Proposta-CRUD-IFPR
