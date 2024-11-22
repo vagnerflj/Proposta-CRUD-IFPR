@@ -9,4 +9,10 @@
 # ☁️Modelo de Banco de Dados
 
 <img src="cursopng.png" width="40%"/>
+
+## 🛑Requisitos para o banco de dados:
+* Deve possuir no mínimo 4 tabelas.
+* Deve ter ao menos uma tabela com chave estrangeira e relação 1 para muitos.
+* Deve ter ao menos uma tabela de relação muitos para muitos.
+
 ---
