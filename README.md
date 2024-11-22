@@ -1,7 +1,6 @@
 <img src="pngwing.com.png" width="30%"/>
 
 # 🧑🏽‍🏫Projeto ofertado na diciplina de POO do professor Gregory do Instituto federal do parana.
----
 
 # 🌐Sistema Proposto 
 
