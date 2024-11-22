@@ -1,6 +1,9 @@
 <img src="pngwing.com.png" width="30%"/>
 
-# 🧑🏽‍🏫Projeto ofertado na diciplina de POO do professor Gregory do Instituto federal do parana.
+# 🧑🏽‍🏫Projeto ofertado na diciplina de POO.
+
+## Dev: 
+## Professor: Gregory
 
 # 🌐Sistema Proposto 
 
@@ -14,5 +17,14 @@
 * Deve possuir no mínimo 4 tabelas.
 * Deve ter ao menos uma tabela com chave estrangeira e relação 1 para muitos.
 * Deve ter ao menos uma tabela de relação muitos para muitos.
+
+# Diagrama de Classes 
+
+
+## 🛑REQUISITOS OBRIGATÓRIOS PARA O DIAGRAMA:
+* Deve possuir ao menos duas classes com relacionamento de associação/agregação/composição;
+* deve possuir no mínimo uma classe com associação de multiplicidade muitos para muitos (com array/arraylist);
+* Requisito facultativo para o diagrama:
+* Representar uma herança ou possibilidade de implementação de polimorfismo (herança com classe concreta/abstrata ou interface).
 
 ---
