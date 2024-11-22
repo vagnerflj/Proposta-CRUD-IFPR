@@ -9,5 +9,5 @@
 
 # ☁️Modelo de Banco de Dados
 
-<img src="cursopng.png" width="30%"/>
+<img src="cursopng.png" width="40%"/>
 ---
