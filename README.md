@@ -1,9 +1,9 @@
-<img src="pngwing.com.png" width="30%"/>
+<img src="img/pngwing.com.png" width="30%"/>
 
-# 🧑🏽‍🏫Projeto ofertado na diciplina de POO.
+# 📚Projeto ofertado na diciplina de POO.
 
-## Dev: 
-## Professor: Gregory
+## 👨🏽‍💻Dev: Vagner Ferreira 
+## 👨🏽‍🏫Professor: Gregory
 
 # 🌐Sistema Proposto 
 
@@ -11,14 +11,14 @@
 
 # ☁️Modelo de Banco de Dados
 
-<img src="cursopng.png" width="40%"/>
+<img src="img/cursopng.png" width="40%"/>
 
 ## 🛑Requisitos para o banco de dados:
 * Deve possuir no mínimo 4 tabelas.
 * Deve ter ao menos uma tabela com chave estrangeira e relação 1 para muitos.
 * Deve ter ao menos uma tabela de relação muitos para muitos.
 
-# Diagrama de Classes 
+# 📊Diagrama de Classes 
 
 
 ## 🛑REQUISITOS OBRIGATÓRIOS PARA O DIAGRAMA:
