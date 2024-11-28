@@ -49,6 +49,52 @@ Primeiramente, você precisará clonar o repositório do projeto para sua máqui
 
 # 📊Diagrama de Classes 
 
+# ⚒️Estrutura de Pacotes
+
+```bash
+src/
+│
+├── br/
+│   └── com/
+│       └── curso/
+│           ├── model/              
+│           │   ├── Usuario.java     
+│           │   ├── Professor.java   
+│           │   ├── Curso.java       
+│           │   ├── Aluno.java       
+│           │   ├── Feedback.java    
+│           │   └── AlunoHasCurso.java 
+│           │
+│           ├── dao/                 
+│           │   ├── UsuarioDAO.java
+│           │   ├── ProfessorDAO.java
+│           │   ├── CursoDAO.java
+│           │   ├── AlunoDAO.java
+│           │   ├── FeedbackDAO.java
+│           │   └── AlunoHasCursoDAO.java
+│           │
+│           ├── service/             
+│           │   ├── UsuarioService.java
+│           │   ├── ProfessorService.java
+│           │   ├── CursoService.java
+│           │   ├── AlunoService.java
+│           │   ├── FeedbackService.java
+│           │   └── AlunoHasCursoService.java
+│           │
+│           ├── ui/                  
+│           │   ├── MainFrame.java    
+│           │   ├── CadastroCursoFrame.java
+│           │   ├── CadastroAlunoFrame.java
+│           │   ├── FeedbackFrame.java
+│           │   └── LoginFrame.java   
+│           │
+│           ├── util/                
+│           │   ├── DBConnection.java 
+│           │   └── Util.java         
+│
+└── README.md                       
+```
+
 
 ## 🛑REQUISITOS OBRIGATÓRIOS PARA O DIAGRAMA:
 * Deve possuir ao menos duas classes com relacionamento de associação/agregação/composição;
