@@ -52,47 +52,31 @@ Primeiramente, você precisará clonar o repositório do projeto para sua máqui
 # ⚒️Estrutura de Pacotes
 
 ```bash
-src/
+    src/
 │
-├── br/
-│   └── com/
-│       └── curso/
-│           ├── model/              
-│           │   ├── Usuario.java     
-│           │   ├── Professor.java   
-│           │   ├── Curso.java       
-│           │   ├── Aluno.java       
-│           │   ├── Feedback.java    
-│           │   └── AlunoHasCurso.java 
-│           │
-│           ├── dao/                 
-│           │   ├── UsuarioDAO.java
-│           │   ├── ProfessorDAO.java
-│           │   ├── CursoDAO.java
-│           │   ├── AlunoDAO.java
-│           │   ├── FeedbackDAO.java
-│           │   └── AlunoHasCursoDAO.java
-│           │
-│           ├── service/             
-│           │   ├── UsuarioService.java
-│           │   ├── ProfessorService.java
-│           │   ├── CursoService.java
-│           │   ├── AlunoService.java
-│           │   ├── FeedbackService.java
-│           │   └── AlunoHasCursoService.java
-│           │
-│           ├── ui/                  
-│           │   ├── MainFrame.java    
-│           │   ├── CadastroCursoFrame.java
-│           │   ├── CadastroAlunoFrame.java
-│           │   ├── FeedbackFrame.java
-│           │   └── LoginFrame.java   
-│           │
-│           ├── util/                
-│           │   ├── DBConnection.java 
-│           │   └── Util.java         
+├── conexao/
+│   └── Conexao.java         
 │
-└── README.md                       
+├── model/
+│   ├── bean/
+│   │   ├── Curso.java       
+│   │   ├── Aluno.java       
+│   │   ├── Professor.java   
+│   │   └── Feedback.java    
+│   ├── dao/
+│       ├── CursoDAO.java    
+│       ├── AlunoDAO.java    
+│       ├── ProfessorDAO.java
+│       └── FeedbackDAO.java 
+│
+├── views/
+│   ├── CursoView.java       
+│   ├── AlunoView.java       
+│   ├── ProfessorView.java   
+│   └── FeedbackView.java    
+│
+└── Main.java                
+        
 ```
 
 
