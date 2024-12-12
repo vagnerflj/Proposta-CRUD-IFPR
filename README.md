@@ -73,20 +73,13 @@ src/
 │           │   ├── FeedbackDAO.java
 │           │   └── AlunoHasCursoDAO.java
 │           │
-│           ├── service/             
-│           │   ├── UsuarioService.java
-│           │   ├── ProfessorService.java
-│           │   ├── CursoService.java
-│           │   ├── AlunoService.java
-│           │   ├── FeedbackService.java
-│           │   └── AlunoHasCursoService.java
-│           │
-│           ├── ui/                  
-│           │   ├── MainFrame.java    
-│           │   ├── CadastroCursoFrame.java
-│           │   ├── CadastroAlunoFrame.java
-│           │   ├── FeedbackFrame.java
-│           │   └── LoginFrame.java   
+│           │ 
+│           ├── view/                  
+│           │   ├── TelaPrincipal.java    
+│           │   ├── CursoView.java
+│           │   ├── AlunoView.java
+│           │   ├── FeedbackView.java
+│           │   └── LoginView.java   
 │           │
 │           ├── util/                
 │           │   ├── DBConnection.java 
@@ -104,31 +97,3 @@ src/
 
 ---
 
-
-## 📬Endpoints do Sistema
-
-| **Endpoint**               | **Método HTTP** | **Descrição**                                                   |
-|----------------------------|-----------------|-----------------------------------------------------------------|
-| `/login`                   | POST            | Realiza o login de um usuário (aluno/professor)                 |
-| `/register`                | POST            | Registra um novo usuário                                        |
-| `/cursos`                  | GET             | Retorna a lista de todos os cursos                              |
-| `/curso/{id}`              | GET             | Detalhes de um curso específico                                  |
-| `/curso`                   | POST            | Cria um novo curso                                              |
-| `/curso/{id}`              | PUT             | Atualiza um curso existente                                     |
-| `/curso/{id}`              | DELETE          | Deleta um curso                                                 |
-| `/professores`             | GET             | Retorna lista de professores                                    |
-| `/professor/{id}`          | GET             | Detalhes de um professor específico                              |
-| `/professor`               | POST            | Registra um novo professor                                      |
-| `/professor/{id}`          | PUT             | Atualiza um professor                                           |
-| `/professor/{id}`          | DELETE          | Deleta um professor                                             |
-| `/alunos`                  | GET             | Retorna lista de alunos                                         |
-| `/aluno/{id}`              | GET             | Detalhes de um aluno                                            |
-| `/aluno`                   | POST            | Registra um novo aluno                                          |
-| `/aluno/{id}`              | PUT             | Atualiza informações de um aluno                                |
-| `/aluno/{id}`              | DELETE          | Deleta um aluno                                                 |
-| `/inscricao`               | POST            | Inscreve um aluno em um curso                                  |
-| `/inscricoes/{aluno_id}`   | GET             | Retorna os cursos em que o aluno está inscrito                  |
-| `/inscricao`               | DELETE          | Cancela inscrição de aluno em um curso                          |
-| `/feedback`                | POST            | Deixa um feedback para um curso                                 |
-| `/feedback/{curso_id}`     | GET             | Retorna os feedbacks de um curso específico                      |
-| `/feedback/{id}`           | DELETE          | Deleta um feedback específico                                   |
