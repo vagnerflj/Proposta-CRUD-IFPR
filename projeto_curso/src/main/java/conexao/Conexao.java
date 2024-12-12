@@ -17,8 +17,7 @@ import java.util.logging.Logger;
  * @author Usuário
  */
 public class Conexao {
-    //private static final String URL = "jdbc:SGBD://SERVIDOR:PORTA/NOME_DA_BASE";
-    private static final String URL = "jdbc:mysql://localhost:3306/bd_estoque";
+    private static final String URL = "jdbc:mysql://localhost:3306/curso";
     private static final String USUARIO = "root";
     private static final String SENHA = "root";
     

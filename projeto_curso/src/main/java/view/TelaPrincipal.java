@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package views;
-
-import javax.swing.*;
+package view;
 /**
  *
  * @author Aluno
  */
+
+
 public class TelaPrincipal extends javax.swing.JFrame {
   
 
@@ -36,6 +36,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenu2 = new javax.swing.JMenu();
         menuGerenciarFornecedor = new javax.swing.JMenuItem();
         menuGerenciarCompra = new javax.swing.JMenuItem();
+        menuGerenciarCompra1 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Gerenciamento de Estoque");
@@ -58,9 +59,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
-        jMenu2.setText("Gerenciar");
+        jMenu2.setText("Cadastrar");
 
-        menuGerenciarFornecedor.setText("Fornecedor");
+        menuGerenciarFornecedor.setText("Curso");
         menuGerenciarFornecedor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuGerenciarFornecedorActionPerformed(evt);
@@ -68,13 +69,21 @@ public class TelaPrincipal extends javax.swing.JFrame {
         });
         jMenu2.add(menuGerenciarFornecedor);
 
-        menuGerenciarCompra.setText("Compra");
+        menuGerenciarCompra.setText("Aluno");
         menuGerenciarCompra.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuGerenciarCompraActionPerformed(evt);
             }
         });
         jMenu2.add(menuGerenciarCompra);
+
+        menuGerenciarCompra1.setText("Professor");
+        menuGerenciarCompra1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuGerenciarCompra1ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(menuGerenciarCompra1);
 
         jMenuBar1.add(jMenu2);
 
@@ -99,16 +108,22 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void menuGerenciarFornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuGerenciarFornecedorActionPerformed
-        TelaFornecedor tela = new TelaFornecedor();
+        CursoView tela = new CursoView();
         painelPrincipal.add(tela);
         tela.setVisible(true);
     }//GEN-LAST:event_menuGerenciarFornecedorActionPerformed
 
     private void menuGerenciarCompraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuGerenciarCompraActionPerformed
-        TelaCompra tela = new TelaCompra();
+        AlunoView tela = new AlunoView();
         painelPrincipal.add(tela);
         tela.setVisible(true);
     }//GEN-LAST:event_menuGerenciarCompraActionPerformed
+
+    private void menuGerenciarCompra1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuGerenciarCompra1ActionPerformed
+        ProfessorView tela = new ProfessorView();
+        painelPrincipal.add(tela);
+        tela.setVisible(true);
+    }//GEN-LAST:event_menuGerenciarCompra1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -136,6 +151,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(TelaPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+        //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -151,6 +167,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem menuArquivoSair;
     private javax.swing.JMenuItem menuGerenciarCompra;
+    private javax.swing.JMenuItem menuGerenciarCompra1;
     private javax.swing.JMenuItem menuGerenciarFornecedor;
     private javax.swing.JDesktopPane painelPrincipal;
     // End of variables declaration//GEN-END:variables
