@@ -91,28 +91,29 @@ Primeiramente, você precisará clonar o repositório do projeto para sua máqui
 
 ## 📬Endpoints do Sistema
 
-| **Endpoint**               | **Método HTTP** | **Descrição**                                                   |
-|----------------------------|-----------------|-----------------------------------------------------------------|
-| `/login`                   | POST            | Realiza o login de um usuário (aluno/professor)                 |
-| `/register`                | POST            | Registra um novo usuário                                        |
-| `/cursos`                  | GET             | Retorna a lista de todos os cursos                              |
-| `/curso/{id}`              | GET             | Detalhes de um curso específico                                  |
-| `/curso`                   | POST            | Cria um novo curso                                              |
-| `/curso/{id}`              | PUT             | Atualiza um curso existente                                     |
-| `/curso/{id}`              | DELETE          | Deleta um curso                                                 |
-| `/professores`             | GET             | Retorna lista de professores                                    |
-| `/professor/{id}`          | GET             | Detalhes de um professor específico                              |
-| `/professor`               | POST            | Registra um novo professor                                      |
-| `/professor/{id}`          | PUT             | Atualiza um professor                                           |
-| `/professor/{id}`          | DELETE          | Deleta um professor                                             |
-| `/alunos`                  | GET             | Retorna lista de alunos                                         |
-| `/aluno/{id}`              | GET             | Detalhes de um aluno                                            |
-| `/aluno`                   | POST            | Registra um novo aluno                                          |
-| `/aluno/{id}`              | PUT             | Atualiza informações de um aluno                                |
-| `/aluno/{id}`              | DELETE          | Deleta um aluno                                                 |
-| `/inscricao`               | POST            | Inscreve um aluno em um curso                                  |
-| `/inscricoes/{aluno_id}`   | GET             | Retorna os cursos em que o aluno está inscrito                  |
-| `/inscricao`               | DELETE          | Cancela inscrição de aluno em um curso                          |
-| `/feedback`                | POST            | Deixa um feedback para um curso                                 |
-| `/feedback/{curso_id}`     | GET             | Retorna os feedbacks de um curso específico                      |
-| `/feedback/{id}`           | DELETE          | Deleta um feedback específico                                   |
+| **Endpoint**               | **Operação CRUD**  | **Descrição**                                                   |
+|----------------------------|--------------------|-----------------------------------------------------------------|
+| `/login`                   | Login              | Realiza o login de um usuário (aluno/professor)                 |
+| `/register`                | Criar              | Registra um novo usuário                                        |
+| `/cursos`                  | Ler                | Retorna a lista de todos os cursos                              |
+| `/curso/{id}`              | Ler                | Detalhes de um curso específico                                  |
+| `/curso`                   | Criar              | Cria um novo curso                                              |
+| `/curso/{id}`              | Atualizar          | Atualiza um curso existente                                     |
+| `/curso/{id}`              | Deletar            | Deleta um curso                                                 |
+| `/professores`             | Ler                | Retorna lista de professores                                    |
+| `/professor/{id}`          | Ler                | Detalhes de um professor específico                              |
+| `/professor`               | Criar              | Registra um novo professor                                      |
+| `/professor/{id}`          | Atualizar          | Atualiza um professor                                           |
+| `/professor/{id}`          | Deletar            | Deleta um professor                                             |
+| `/alunos`                  | Ler                | Retorna lista de alunos                                         |
+| `/aluno/{id}`              | Ler                | Detalhes de um aluno                                            |
+| `/aluno`                   | Criar              | Registra um novo aluno                                          |
+| `/aluno/{id}`              | Atualizar          | Atualiza informações de um aluno                                |
+| `/aluno/{id}`              | Deletar            | Deleta um aluno                                                 |
+| `/inscricao`               | Criar              | Inscreve um aluno em um curso                                  |
+| `/inscricoes/{aluno_id}`   | Ler                | Retorna os cursos em que o aluno está inscrito                  |
+| `/inscricao`               | Deletar            | Cancela inscrição de aluno em um curso                          |
+| `/feedback`                | Criar              | Deixa um feedback para um curso                                 |
+| `/feedback/{curso_id}`     | Ler                | Retorna os feedbacks de um curso específico                      |
+| `/feedback/{id}`           | Deletar            | Deleta um feedback específico                                   |
+
